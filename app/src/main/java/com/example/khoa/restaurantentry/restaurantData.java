@@ -21,19 +21,19 @@ public class restaurantData
         return Picture;
     }
 
-    public String getName() {
-        return Name;
-    }
-
     public void setName(String name) {
         Name = name;
     }
-
-    public String getCity() {
-        return City;
+    public String getName() {
+        return Name;
     }
 
     public void setCity(String city) {
         City = city;
     }
+    public String getCity() {
+        return City;
+    }
+
+
 }
