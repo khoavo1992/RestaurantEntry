@@ -11,6 +11,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
+//Adapter used to handle data when it is changed
 public class restaurantAdapter extends BaseAdapter  {
     private Context listContext;
     private List<restaurantData> listRestaurant;
